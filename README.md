@@ -4,8 +4,8 @@ object detection using the very powerful YOLO model. 'YOLO' ("you only look once
 
 ## Background
 The background is about a car detection system of the self-driving car. To collect data, you've mounted a camera to the hood (meaning the front) of the car, which takes pictures of the road ahead every few seconds while you drive around.
-![image](/git_images/road_video_compressed2.mp4)
-Pictures taken from a car-mounted camera while driving around Silicon Valley, which is given from [drive.ai](https://www.drive.ai/)
+![video](/git_images/road_video_compressed2.mp4)
+<br>Pictures taken from a car-mounted camera while driving around Silicon Valley, which is given from [drive.ai](https://www.drive.ai/)
 
 ## Bounding Boxes in object dectection
 
