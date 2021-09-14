@@ -3,9 +3,8 @@ YOLO for Car Detection
 object detection using the very powerful YOLO model. 'YOLO' ("you only look once") is a popular algoritm because it achieves high accuracy while also being able to run in real-time. This algorithm "only looks once" at the image in the sense that it requires only one forward propagation pass through the network to make predictions. After non-max suppression, it then outputs recognized objects together with the bounding boxes. 
 
 ## Background
-The background is about a car detection system of the self-driving car. To collect data, you've mounted a camera to the hood (meaning the front) of the car, which takes pictures of the road ahead every few seconds while you drive around.
-![video](/git_images/road_video_compressed2.mp4)
-<br>Pictures taken from a car-mounted camera while driving around Silicon Valley, which is given from [drive.ai](https://www.drive.ai/)
+The background is about a car detection system of the self-driving car. 
+<br>The Pictures taken from a car-mounted camera while driving around Silicon Valley, which is given from [drive.ai](https://www.drive.ai/)
 
 ## Bounding Boxes in object dectection
 
@@ -53,8 +52,7 @@ Even after filtering by thresholding over the classes scores, it often still end
 the detection output of one image
 ![image](/out/test.jpg)
 
-<br>If we were to run the session in a for loop over all images, we can get:
-![image](/git_images/pred_video_compressed2.mp4)
+<br>If we were to run the session in a for loop over all images, we can get the detection result from a video
 <br>Predictions of the YOLO model on pictures taken from a camera while driving around the Silicon Valley, which is given from [drive.ai](https://www.drive.ai/)
 
 ## References 
